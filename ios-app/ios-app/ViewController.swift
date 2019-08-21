@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import main
+import common
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
