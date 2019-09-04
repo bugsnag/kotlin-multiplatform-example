@@ -1,5 +1,7 @@
 # Kotlin Multiplatform
 
+Check out the [blog post](https://www.bugsnag.com/blog/kotlin-multiplatform) for a detailed explanation of this repository.
+
 ### Android
 
 `./gradlew android-app:installDebug`
