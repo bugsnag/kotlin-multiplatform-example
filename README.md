@@ -8,7 +8,8 @@ Check out the [blog post](https://www.bugsnag.com/blog/kotlin-multiplatform) for
 
 ### iOS
 
-`./gradlew build`, then run from XCode targetting a simulator in the Debug Configuration
+`xcodebuild -sdk iphonesimulator -arch arm64 -configuration Debug -project "ios-app/ios-app.xcodeproj" -scheme ios-app`
+then run from XCode targeting a simulator in the Debug Configuration
 
 ### Web
 
